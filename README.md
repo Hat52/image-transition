@@ -1,2 +1,2 @@
 # image-transition
-A Image transition effect
+This is a repository containing code for creating smooth transitions between two images 
