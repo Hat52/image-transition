@@ -1,0 +1,44 @@
+body {
+	background: black;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.curtein {
+	height: 0;
+	width: 100%;
+	transition: height 2s ease;
+	position: absolute;
+	bottom: 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.visible0 {
+	height: 100%;
+	background-image: url('./1.jpg');
+}
+.visible1 {
+	height: 100%;
+	background-image: url('./2.jpg');
+}
+.visible2 {
+	height: 100%;
+	background-image: url('./3.jpg');
+}
+.visible3 {
+	background-image: url('./1.jpg');
+	height: 100%;
+}
+
+button {
+	display: none;
+	position: absolute;
+	bottom: 2%;
+	right: 2%;
+	background: transparent;
+	color: white;
+}
+.visible-button {
+	display: block;
+}
